@@ -1,0 +1,31 @@
+site_name: Fiches de physique en TSI1
+theme:
+  name: material
+  language: fr
+  features:
+  - navigation.tabs
+  - content.tabs.link
+
+markdown_extensions:
+  - meta
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,8 @@
+\documentclass[tikz,convert={outfile=\jobname.svg}]{standalone}
+%\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
+\begin{document}
+\begin{tikzpicture}% Example:
+  \draw [->,>=latex] (0,0) -- (10,0) node [right] {$T$}; % ...
+  \draw [->,>=latex] (0,0) -- (0,8) node [left] {$P$}; % ...
+\end{tikzpicture}
+\end{document}
