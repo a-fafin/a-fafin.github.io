@@ -1,0 +1,5 @@
+/*fait en sorte que le texte dans les admonitons soit de la même taille que dans le reste du doc*/
+.md-typeset .admonition, .md-typeset details {
+    color: var(--md-admonition-fg-color);
+    font-size: .8rem;
+}
